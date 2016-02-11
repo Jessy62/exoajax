@@ -1,0 +1,39 @@
+body {
+  background-image: url(https://pixabay.com/static/uploads/photo/2015/10/23/12/18/cube-1002897_960_720.jpg);
+}
+
+select {
+  margin-top: 6%;
+  background-color: rgb(29, 85, 150);
+  color: rgb(255, 255, 255);
+  height: 40px;
+  width: 60%;
+}
+
+#choix {
+  text-align: center;
+}
+
+select:hover {
+  background-color: rgb(1, 2, 61);
+  -moz-box-shadow: 0.6px 0.5px 3px 4px #656565;
+  -webkit-box-shadow: 0.6px 0.5px 3px 4px #656565;
+  -o-box-shadow: 0.6px 0.5px 3px 4px #656565;
+  box-shadow: 0.6px 0.5px 3px 4px #656565;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=129, Strength=3);
+}
+
+h1 {
+  font-weight: bold;
+  margin-top: 5%;
+  color: rgb(13, 15, 15);
+  text-align: center;
+}
+
+#reponse {
+  margin-top: 4%;
+  background-color: rgba(48, 48, 48, 0.67);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+}
